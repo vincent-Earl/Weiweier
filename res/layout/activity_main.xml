@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_bottom_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/home_host_button"
+            android:gravity="center"
+            android:background="@drawable/host_button_background"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="@string/home_host" />
+
+        <RadioButton
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/message_host_button"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:background="@drawable/host_button_background"
+            android:textColor="@color/white"
+            android:text="@string/message_host" />
+
+        <RadioButton
+            android:id="@+id/profile"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="12sp"
+            android:background="@drawable/host_button_background"
+            android:drawableTop="@drawable/profile_host_button"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/profile_host" />
+
+        <RadioButton
+            android:id="@+id/square"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="12sp"
+            android:background="@drawable/host_button_background"
+            android:drawableTop="@drawable/square_host_button"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/square_host" />
+
+        <RadioButton
+            android:id="@+id/more"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="12sp"
+            android:background="@drawable/host_button_background"
+            android:drawableTop="@drawable/more_host_button"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/more_host" />
+    </RadioGroup>
+
+</RelativeLayout>

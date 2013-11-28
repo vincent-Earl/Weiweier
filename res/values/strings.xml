@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微微</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="home_host">首页</string>
+    <string name="profile_host">我</string>
+    <string name="message_host">信息</string>
+    <string name="more_host">更多</string>
+    <string name="square_host">广场</string>
+</resources>
